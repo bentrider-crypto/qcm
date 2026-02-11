@@ -1,0 +1,555 @@
+{
+  "format": "qcm-questions-v2",
+  "questions": [
+    {
+      "id": "sst-1",
+      "text": "Quelle est la version et la date du document de référence SST utilisé ?",
+      "correctIndex": 2,
+      "options": [
+        "Version 7 – 01/2020",
+        "Version 9 – 01/2022",
+        "Version 8 – 01/2021",
+        "Version 8 – 12/2020"
+      ]
+    },
+    {
+      "id": "sst-2",
+      "text": "Quel est l’objectif principal du document de référence SST ?",
+      "correctIndex": 1,
+      "options": [
+        "Fixer les tarifs des formations SST",
+        "Structurer le dispositif de formation SST",
+        "Remplacer les référentiels d’activités",
+        "Définir les sanctions disciplinaires"
+      ]
+    },
+    {
+      "id": "sst-3",
+      "text": "Le réseau prévention vise notamment à :",
+      "correctIndex": 0,
+      "options": [
+        "Développer la culture prévention dans les entreprises",
+        "Réduire le nombre de formations SST",
+        "Remplacer le PSC1",
+        "Supprimer les actions de sensibilisation"
+      ]
+    },
+    {
+      "id": "sst-4",
+      "text": "Le rôle du SST dans l’entreprise est de :",
+      "correctIndex": 3,
+      "options": [
+        "Superviser la paie",
+        "Former tous les salariés",
+        "Rédiger seul le document unique",
+        "Porter secours et contribuer à la prévention"
+      ]
+    },
+    {
+      "id": "sst-5",
+      "text": "Les compétences du SST sont organisées en :",
+      "correctIndex": 1,
+      "options": [
+        "1 domaine",
+        "2 domaines",
+        "3 domaines",
+        "4 domaines"
+      ]
+    },
+    {
+      "id": "sst-6",
+      "text": "Le dispositif SST se décline en combien de niveaux de formation ?",
+      "correctIndex": 2,
+      "options": [
+        "2 niveaux",
+        "4 niveaux",
+        "3 niveaux",
+        "5 niveaux"
+      ]
+    },
+    {
+      "id": "sst-7",
+      "text": "La validité du certificat SST est fixée à :",
+      "correctIndex": 0,
+      "options": [
+        "2 ans",
+        "3 ans",
+        "5 ans",
+        "1 an"
+      ]
+    },
+    {
+      "id": "sst-8",
+      "text": "Le MAC SST doit être suivi :",
+      "correctIndex": 3,
+      "options": [
+        "Tous les 12 mois",
+        "Tous les 36 mois",
+        "Tous les 48 mois",
+        "Tous les 24 mois"
+      ]
+    },
+    {
+      "id": "sst-9",
+      "text": "La durée minimale de la formation initiale SST est de :",
+      "correctIndex": 1,
+      "options": [
+        "7 heures",
+        "14 heures",
+        "21 heures",
+        "28 heures"
+      ]
+    },
+    {
+      "id": "sst-10",
+      "text": "La durée minimale du MAC SST est de :",
+      "correctIndex": 0,
+      "options": [
+        "7 heures",
+        "14 heures",
+        "21 heures",
+        "10 heures"
+      ]
+    },
+    {
+      "id": "sst-11",
+      "text": "L’effectif d’une formation SST est :",
+      "correctIndex": 2,
+      "options": [
+        "De 2 à 8 personnes",
+        "De 6 à 12 personnes",
+        "De 4 à 10 personnes",
+        "De 8 à 16 personnes"
+      ]
+    },
+    {
+      "id": "sst-12",
+      "text": "Le dispensateur de la formation SST doit être :",
+      "correctIndex": 3,
+      "options": [
+        "Un organisme non habilité",
+        "Le service RH",
+        "Un cabinet privé libre",
+        "Une entité habilitée de niveau 1"
+      ]
+    },
+    {
+      "id": "sst-13",
+      "text": "La formation SST peut être animée par :",
+      "correctIndex": 1,
+      "options": [
+        "Tout salarié formé PSC1",
+        "Un formateur SST ou formateur de formateurs SST valide",
+        "Un médecin du travail uniquement",
+        "Un agent de sécurité"
+      ]
+    },
+    {
+      "id": "sst-14",
+      "text": "Après une formation SST initiale, quel document doit obligatoirement être remis ?",
+      "correctIndex": 0,
+      "options": [
+        "L’aide-mémoire « Sauvetage secourisme du travail » (INRS ED 4085)",
+        "Un livret interne non officiel",
+        "Un certificat de formateur SST",
+        "Une attestation PSC1"
+      ]
+    },
+    {
+      "id": "sst-15",
+      "text": "Quel matériel est obligatoire pour la formation SST ?",
+      "correctIndex": 2,
+      "options": [
+        "Un défibrillateur réel médical",
+        "Un mannequin adulte uniquement",
+        "Un défibrillateur automatisé externe de formation",
+        "Une trousse de secours personnelle"
+      ]
+    },
+    {
+      "id": "sst-16",
+      "text": "Les mannequins requis pour la formation SST comprennent :",
+      "correctIndex": 1,
+      "options": [
+        "Uniquement adulte",
+        "Adulte, enfant et nourrisson",
+        "Uniquement enfant",
+        "Adulte et enfant"
+      ]
+    },
+    {
+      "id": "sst-17",
+      "text": "Quel outil pédagogique est obligatoire ?",
+      "correctIndex": 3,
+      "options": [
+        "Plan d’actions prévention + pictogrammes",
+        "Un guide externe libre",
+        "Un manuel de l’entreprise",
+        "Plan d’intervention + pictogrammes"
+      ]
+    },
+    {
+      "id": "sst-18",
+      "text": "Quel outil pédagogique est seulement préconisé ?",
+      "correctIndex": 0,
+      "options": [
+        "Plan d’actions prévention + pictogrammes",
+        "Plan d’intervention + pictogrammes",
+        "Défibrillateur réel",
+        "Notice de sécurité ERP"
+      ]
+    },
+    {
+      "id": "sst-19",
+      "text": "Quel est le prérequis pour suivre la formation initiale SST ?",
+      "correctIndex": 2,
+      "options": [
+        "Être titulaire du PSC1",
+        "Être salarié depuis 1 an",
+        "Aucun prérequis",
+        "Être formateur SST"
+      ]
+    },
+    {
+      "id": "sst-20",
+      "text": "Pour participer au MAC SST, il faut :",
+      "correctIndex": 1,
+      "options": [
+        "Être titulaire du PSE2",
+        "Être titulaire du certificat SST",
+        "Être médecin du travail",
+        "Avoir 10 ans d’expérience"
+      ]
+    },
+    {
+      "id": "sst-21",
+      "text": "Les titulaires d’un certificat APS sont :",
+      "correctIndex": 3,
+      "options": [
+        "Dispensés de MAC",
+        "Non reconnus SST",
+        "Obligés de refaire une initiale",
+        "Réputés détenir le certificat SST"
+      ]
+    },
+    {
+      "id": "sst-22",
+      "text": "Un allègement de formation SST est possible si le stagiaire possède :",
+      "correctIndex": 0,
+      "options": [
+        "Le PSC1 datant de moins de 3 ans (ou à jour)",
+        "Un CACES",
+        "Une formation incendie",
+        "Un brevet de secourisme périmé"
+      ]
+    },
+    {
+      "id": "sst-23",
+      "text": "À jour de ses obligations, un SST est réputé détenir :",
+      "correctIndex": 2,
+      "options": [
+        "Le PSE1",
+        "Le BAFA",
+        "Le PSC1",
+        "Le SSIAP 1"
+      ]
+    },
+    {
+      "id": "sst-24",
+      "text": "Pour devenir formateur SST, il faut notamment :",
+      "correctIndex": 1,
+      "options": [
+        "Être titulaire d’un CAP",
+        "Être SST ou APS en cours de validité",
+        "Avoir 10 ans d’ancienneté",
+        "Être pompier professionnel"
+      ]
+    },
+    {
+      "id": "sst-25",
+      "text": "Le futur formateur SST doit avoir suivi :",
+      "correctIndex": 3,
+      "options": [
+        "Une formation PSC2",
+        "Une formation incendie interne",
+        "Une formation ERPS",
+        "L’autoformation INRS « bases en prévention » ou équivalent"
+      ]
+    },
+    {
+      "id": "sst-26",
+      "text": "La validité du certificat de formateur SST est :",
+      "correctIndex": 0,
+      "options": [
+        "3 ans",
+        "2 ans",
+        "5 ans",
+        "1 an"
+      ]
+    },
+    {
+      "id": "sst-27",
+      "text": "Le MAC formateur SST est à suivre :",
+      "correctIndex": 2,
+      "options": [
+        "Tous les 24 mois",
+        "Tous les 12 mois",
+        "Tous les 36 mois",
+        "Tous les 48 mois"
+      ]
+    },
+    {
+      "id": "sst-28",
+      "text": "La durée minimale de la formation initiale formateur SST est :",
+      "correctIndex": 1,
+      "options": [
+        "28 heures",
+        "56 heures",
+        "70 heures",
+        "35 heures"
+      ]
+    },
+    {
+      "id": "sst-29",
+      "text": "La durée minimale du MAC formateur SST est :",
+      "correctIndex": 0,
+      "options": [
+        "21 heures",
+        "14 heures",
+        "28 heures",
+        "7 heures"
+      ]
+    },
+    {
+      "id": "sst-30",
+      "text": "L’effectif d’une formation formateur SST est :",
+      "correctIndex": 3,
+      "options": [
+        "De 4 à 8 personnes",
+        "De 6 à 12 personnes",
+        "De 8 à 14 personnes",
+        "De 5 à 10 personnes"
+      ]
+    },
+    {
+      "id": "sst-31",
+      "text": "Le dispensateur de la formation formateur SST doit être :",
+      "correctIndex": 2,
+      "options": [
+        "Une entité habilitée de niveau 1",
+        "Un organisme non habilité",
+        "Une entité habilitée de niveau 2",
+        "Le service RH"
+      ]
+    },
+    {
+      "id": "sst-32",
+      "text": "La formation formateur SST est animée par :",
+      "correctIndex": 1,
+      "options": [
+        "Un SST expérimenté",
+        "Un formateur de formateurs SST valide",
+        "Un médecin du travail",
+        "Un agent SSIAP"
+      ]
+    },
+    {
+      "id": "sst-33",
+      "text": "Un allègement formateur SST peut être appliqué, avec un minimum de :",
+      "correctIndex": 0,
+      "options": [
+        "28 heures",
+        "14 heures",
+        "7 heures",
+        "56 heures"
+      ]
+    },
+    {
+      "id": "sst-34",
+      "text": "Par équivalence, un formateur SST détient l’unité d’enseignement :",
+      "correctIndex": 2,
+      "options": [
+        "PAE FPSC",
+        "PSE2",
+        "PICF",
+        "PSC2"
+      ]
+    },
+    {
+      "id": "sst-35",
+      "text": "Un formateur SST à jour est autorisé à dispenser :",
+      "correctIndex": 3,
+      "options": [
+        "Le PSE2",
+        "Le SSIAP 1",
+        "Le CQP APS",
+        "Le PSC1 (sous conditions d’agrément)"
+      ]
+    },
+    {
+      "id": "sst-36",
+      "text": "Le formateur de formateurs SST assure :",
+      "correctIndex": 1,
+      "options": [
+        "Uniquement la formation initiale SST",
+        "La formation et le MAC des formateurs SST",
+        "Uniquement le MAC des SST",
+        "Le contrôle des entreprises"
+      ]
+    },
+    {
+      "id": "sst-37",
+      "text": "Pour devenir formateur de formateurs SST, il faut notamment :",
+      "correctIndex": 0,
+      "options": [
+        "Être sélectionné par l’INRS",
+        "Être titulaire du PSC1",
+        "Avoir 1 an d’ancienneté",
+        "Être formateur incendie"
+      ]
+    },
+    {
+      "id": "sst-38",
+      "text": "Le candidat formateur de formateurs SST doit justifier :",
+      "correctIndex": 2,
+      "options": [
+        "De 10 sessions SST en 1 an",
+        "De 20 sessions en 2 ans",
+        "De 30 sessions en 3 ans dont 15 initiales",
+        "De 50 sessions en 5 ans"
+      ]
+    },
+    {
+      "id": "sst-39",
+      "text": "La validité du certificat de formateur de formateurs SST est de :",
+      "correctIndex": 1,
+      "options": [
+        "2 ans",
+        "3 ans",
+        "4 ans",
+        "5 ans"
+      ]
+    },
+    {
+      "id": "sst-40",
+      "text": "Le MAC formateur de formateurs SST est à suivre :",
+      "correctIndex": 3,
+      "options": [
+        "Tous les 24 mois",
+        "Tous les 12 mois",
+        "Tous les 48 mois",
+        "Tous les 36 mois"
+      ]
+    },
+    {
+      "id": "sst-41",
+      "text": "La durée minimale de la formation initiale formateur de formateurs SST est :",
+      "correctIndex": 0,
+      "options": [
+        "56 heures",
+        "28 heures",
+        "70 heures",
+        "35 heures"
+      ]
+    },
+    {
+      "id": "sst-42",
+      "text": "La durée minimale du MAC formateur de formateurs SST est :",
+      "correctIndex": 2,
+      "options": [
+        "14 heures",
+        "28 heures",
+        "21 heures",
+        "7 heures"
+      ]
+    },
+    {
+      "id": "sst-43",
+      "text": "L’effectif d’une formation formateur de formateurs SST est :",
+      "correctIndex": 1,
+      "options": [
+        "De 4 à 10 personnes",
+        "De 6 à 12 personnes",
+        "De 5 à 10 personnes",
+        "De 8 à 16 personnes"
+      ]
+    },
+    {
+      "id": "sst-44",
+      "text": "Le dispensateur de la formation formateur de formateurs SST est :",
+      "correctIndex": 0,
+      "options": [
+        "L’INRS",
+        "Une entité habilitée de niveau 2",
+        "Une entité habilitée de niveau 1",
+        "La commission d’habilitation"
+      ]
+    },
+    {
+      "id": "sst-45",
+      "text": "Le certificat de formateur de formateurs SST est délivré :",
+      "correctIndex": 2,
+      "options": [
+        "Par l’employeur",
+        "Par l’entité habilitée niveau 2",
+        "Directement par l’INRS",
+        "Par la Carsat"
+      ]
+    },
+    {
+      "id": "sst-46",
+      "text": "L’habilitation de niveau 1 concerne :",
+      "correctIndex": 3,
+      "options": [
+        "La formation des formateurs SST",
+        "La formation des formateurs de formateurs",
+        "Le contrôle qualité",
+        "La formation des acteurs SST et leur MAC"
+      ]
+    },
+    {
+      "id": "sst-47",
+      "text": "L’habilitation de niveau 2 concerne :",
+      "correctIndex": 1,
+      "options": [
+        "La formation des SST uniquement",
+        "La formation des formateurs SST et leur MAC",
+        "Le MAC des SST uniquement",
+        "La formation PSC1"
+      ]
+    },
+    {
+      "id": "sst-48",
+      "text": "Les sessions SST doivent être enregistrées dans :",
+      "correctIndex": 0,
+      "options": [
+        "L’outil national FORPREV",
+        "Un tableur local",
+        "Le registre du personnel",
+        "Un site libre"
+      ]
+    },
+    {
+      "id": "sst-49",
+      "text": "La déclaration d’une session SST doit être faite au plus tard :",
+      "correctIndex": 2,
+      "options": [
+        "30 jours avant",
+        "7 jours avant",
+        "15 jours calendaires avant",
+        "48 heures avant"
+      ]
+    },
+    {
+      "id": "sst-50",
+      "text": "La clôture d’une session SST doit être effectuée au plus tard :",
+      "correctIndex": 1,
+      "options": [
+        "7 jours après la formation",
+        "30 jours calendaires après la fin",
+        "15 jours après la fin",
+        "Le jour même"
+      ]
+    }
+  ]
+}

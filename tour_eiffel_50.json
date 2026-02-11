@@ -1,0 +1,555 @@
+{
+  "format": "qcm-questions-v2",
+  "questions": [
+    {
+      "id": "eiffel-001",
+      "text": "Où se situe la Tour Eiffel ?",
+      "options": [
+        "À Paris, sur le Champ-de-Mars (7e arrondissement)",
+        "À Lyon, place Bellecour",
+        "À Marseille, au Vieux-Port",
+        "À Bordeaux, place de la Bourse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-002",
+      "text": "Pour quelle exposition universelle la Tour Eiffel a-t-elle été construite ?",
+      "options": [
+        "L'Exposition de 1889",
+        "L'Exposition de 1900",
+        "L'Exposition de 1878",
+        "L'Exposition de 1937"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-003",
+      "text": "Qui est l'ingénieur principal à l'origine de la Tour Eiffel ?",
+      "options": [
+        "Gustave Eiffel",
+        "Eiffel Sauvestre",
+        "Maurice Eiffel",
+        "Émile Koechlin"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-004",
+      "text": "Quelle était la hauteur prévue du projet initial de la tour ?",
+      "options": [
+        "300 mètres",
+        "250 mètres",
+        "350 mètres",
+        "280 mètres"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-005",
+      "text": "Quel quartier parisien abrite la Tour Eiffel ?",
+      "options": [
+        "Le quartier du Gros-Caillou (7e arr.)",
+        "Le Marais",
+        "Montmartre",
+        "Belleville"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-006",
+      "text": "Qui, parmi ces noms, a participé au projet de la tour (dessins, structure) ?",
+      "options": [
+        "Stephen Sauvestre et Maurice Koechlin",
+        "Victor Hugo et Jules Verne",
+        "Auguste Rodin et Claude Monet",
+        "Louis Pasteur et Pierre Curie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-007",
+      "text": "En quelle année le projet de « tour en fer de 300 mètres » est-il présenté ?",
+      "options": [
+        "1885",
+        "1889",
+        "1880",
+        "1890"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-008",
+      "text": "Quel matériau principal compose la structure de la Tour Eiffel ?",
+      "options": [
+        "Le fer (puis acier)",
+        "Le béton armé",
+        "La pierre",
+        "Le verre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-009",
+      "text": "Quelle société gère aujourd'hui l'exploitation de la Tour Eiffel ?",
+      "options": [
+        "La SETE (Société d'Exploitation de la Tour Eiffel)",
+        "La RATP",
+        "Paris Musées",
+        "La SNCF"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-010",
+      "text": "Quel dispositif de sécurité a été mis en place autour de la tour (années 2010) ?",
+      "options": [
+        "Mur de verre, barrière en acier, plots",
+        "Uniquement des barrières mobiles",
+        "Aucun dispositif particulier",
+        "Une clôture en bois"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-011",
+      "text": "La tour Eiffel a notamment servi pour quoi, en matière de télécommunications ?",
+      "options": [
+        "Émetteur de télévision (analogique, arrêté en 2011 en Île-de-France)",
+        "Uniquement la radio",
+        "Uniquement l'éclairage de Paris",
+        "Aucune utilisation technique"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-012",
+      "text": "Quel artiste est connu pour avoir représenté la Tour Eiffel (œuvre au CNAC-GP) ?",
+      "options": [
+        "Delaunay",
+        "Picasso",
+        "Monet",
+        "Renoir"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-013",
+      "text": "En 2015, après les attentats de Paris, la Tour Eiffel a été illuminée en quelles couleurs ?",
+      "options": [
+        "Bleu, blanc, rouge",
+        "Uniquement en bleu",
+        "Éteinte sans illumination",
+        "Vert et blanc"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-014",
+      "text": "Quel type de travaux de « lifting » a concerné le premier étage de la tour (années 2010) ?",
+      "options": [
+        "Réaménagement (présence de plomb compliquant les travaux)",
+        "Seulement un nouveau ravalement",
+        "Démontage partiel",
+        "Ajout d'un étage supplémentaire"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-015",
+      "text": "En 2009, la Tour Eiffel a été repeinte et sa teinte décrite comme :",
+      "options": [
+        "Brune",
+        "Rouge",
+        "Grise",
+        "Dorée"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-016",
+      "text": "Une estimation médiatique (BFM, 2012) a évalué la valeur de la Tour Eiffel à environ :",
+      "options": [
+        "434 milliards d'euros (valeur symbolique / actif)",
+        "1 milliard d'euros",
+        "10 milliards d'euros",
+        "100 millions d'euros"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-017",
+      "text": "Les anneaux olympiques ont été installés sur la Tour Eiffel à l'occasion de :",
+      "options": [
+        "Les Jeux olympiques (Paris), puis déposés après les Jeux (2024)",
+        "La Coupe du monde de football",
+        "L'Eurovision",
+        "Ils n'ont jamais été installés"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-018",
+      "text": "Quel document officiel de 1889 décrit l'Exposition et la tour Eiffel ?",
+      "options": [
+        "L'Exposition de 1889 et la tour Eiffel, d'après les documents officiels",
+        "Le Guide Michelin 1889",
+        "Les Mémoires de Gustave Eiffel",
+        "Le Journal officiel du 1er janvier 1889"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-019",
+      "text": "Émile Nouguier est associé au projet de la Tour Eiffel en tant que :",
+      "options": [
+        "Ingénieur / collaborateur du projet (avec Koechlin, Sauvestre)",
+        "Peintre officiel de la tour",
+        "Maire de Paris à l'époque",
+        "Architecte du Champ-de-Mars"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-020",
+      "text": "Où le fer (ou l'acier) de la Tour Eiffel provient-il, selon les sources ?",
+      "options": [
+        "De forges françaises (dont Lorraine mentionnée)",
+        "Uniquement d'Allemagne",
+        "Uniquement de Belgique",
+        "D'Angleterre"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-021",
+      "text": "Quel organisme a officialisé l'arrêt de la télévision analogique en Île-de-France ?",
+      "options": [
+        "Le CSA (Conseil supérieur de l'audiovisuel)",
+        "La SETE",
+        "La mairie de Paris",
+        "RTE"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-022",
+      "text": "La Tour Eiffel est souvent citée pour :",
+      "options": [
+        "Les cartes postales parmi les plus vendues au monde",
+        "Être le plus haut building du monde en 2024",
+        "Avoir été détruite pendant la guerre",
+        "Avoir été déplacée au bord de la Seine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-023",
+      "text": "Pour les tournages et l'utilisation de l'image de la Tour Eiffel :",
+      "options": [
+        "Des règles et autorisations existent (toureiffel.paris)",
+        "Aucune règle n'existe",
+        "Seule la nuit est autorisée",
+        "C'est interdit en France"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-024",
+      "text": "Quel livre de Gustave Eiffel évoque « Une tour de trois cents mètres » ?",
+      "options": [
+        "Ouvrage de 1900 (titré ainsi)",
+        "Les Mémoires d'un ingénieur",
+        "La Tour et l'Exposition",
+        "Ce titre n'existe pas"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-025",
+      "text": "La construction de la tour a utilisé notamment :",
+      "options": [
+        "Des vérins et des cales en fer (tassement du sol pris en compte)",
+        "Uniquement des grues modernes",
+        "Du béton précontraint",
+        "Aucune technique particulière"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-026",
+      "text": "En 2015, des éoliennes ont été envisagées ou installées :",
+      "options": [
+        "Deux éoliennes sur la Tour Eiffel (projet / essai rapporté)",
+        "Sur le Champ-de-Mars uniquement",
+        "Jamais sur ou près de la tour",
+        "Sur la Seine"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-027",
+      "text": "Un « concours mondial pour la tour Eiffel de demain » a été évoqué en :",
+      "options": [
+        "2017 (Le JDD)",
+        "2000",
+        "2020",
+        "Jamais"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-028",
+      "text": "La Tour Eiffel apparaît dans :",
+      "options": [
+        "De nombreux films (documentaire Arte « La Tour Eiffel au cinéma »)",
+        "Uniquement des documentaires",
+        "Aucune œuvre cinématographique",
+        "Uniquement des publicités"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-029",
+      "text": "La délégation de service public pour la gestion de la Tour Eiffel est attribuée par :",
+      "options": [
+        "La Ville de Paris (registre, procédure officielle)",
+        "L'État uniquement",
+        "Une association privée",
+        "L'Unesco"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-030",
+      "text": "Les « traitements de surface » de la Tour Eiffel sont documentés par :",
+      "options": [
+        "L'OTUA (Office technique de l'utilisation de l'acier)",
+        "La SETE uniquement",
+        "Le CSA",
+        "Le ministère de la Culture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-031",
+      "text": "En 1919, un « canon monstre » a été évoqué dans la presse (Excelsior) à propos :",
+      "options": [
+        "D'obus numérotés et de chutes (contexte historique)",
+        "De feux d'artifice de la tour",
+        "De la construction de la tour",
+        "D'un projet de démolition"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-032",
+      "text": "Anne Hidalgo a annoncé quelque chose concernant les anneaux olympiques et la tour :",
+      "options": [
+        "Les anneaux « vont rester sur la tour Eiffel » après les Jeux (puis dépôt en 2024)",
+        "Leur démolition avant les Jeux",
+        "Leur remplacement par un drapeau",
+        "Aucune annonce"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-033",
+      "text": "Le coût de construction de la Tour Eiffel est documenté sur des sites comme :",
+      "options": [
+        "merveilles-du-monde.com et d'autres sources historiques",
+        "Uniquement sur le site de la SETE",
+        "Nulle part",
+        "Uniquement dans des romans"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-034",
+      "text": "La base Léonore (Légion d'honneur) contient des dossiers liés à :",
+      "options": [
+        "Des personnalités de l'époque (ex. Alphonse Fould, maison Fould-Dupont)",
+        "Uniquement Gustave Eiffel",
+        "La liste des ouvriers de la tour",
+        "Les visiteurs de 1889"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-035",
+      "text": "En 2014, un article du Monde évoquait la Tour Eiffel comme :",
+      "options": [
+        "« Prisonnière d'un chantier diabolique » (travaux, réaménagements)",
+        "En danger de démolition",
+        "Déplacée à Lyon",
+        "Fermée définitivement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-036",
+      "text": "La Tour Eiffel est géolocalisée sur :",
+      "options": [
+        "Wikidata et projets Wikimedia (Commons, Wikisource, etc.)",
+        "Uniquement Google Maps",
+        "Uniquement sur le site officiel",
+        "Nulle part"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-037",
+      "text": "En 2018, des travaux de clôture ont modifié :",
+      "options": [
+        "L'accès et les circulations autour de la tour",
+        "Uniquement la couleur de la tour",
+        "La hauteur de la tour",
+        "L'emplacement de la tour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-038",
+      "text": "Les chiffres clés du tourisme en Île-de-France (ORTIF) incluent :",
+      "options": [
+        "Des données sur les musées et monuments (dont la tour)",
+        "Uniquement les hôtels",
+        "Uniquement les transports",
+        "Aucune donnée sur la tour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-039",
+      "text": "La Cass. (Cour de cassation) a rendu une décision concernant :",
+      "options": [
+        "L'utilisation de l'image de la Tour Eiffel (droits, RIDA)",
+        "La propriété du terrain du Champ-de-Mars",
+        "La démolition de la tour",
+        "Les horaires d'ouverture"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-040",
+      "text": "Édouard Lockroy est mentionné dans les documents sur l'Exposition de 1889 comme :",
+      "options": [
+        "Personnalité liée à l'Exposition (biographies officielles)",
+        "Constructeur de la tour",
+        "Peintre de la tour",
+        "Premier visiteur"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-041",
+      "text": "La Tour Eiffel est située dans quel pays ?",
+      "options": [
+        "France",
+        "Belgique",
+        "Suisse",
+        "Italie"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-042",
+      "text": "Quel est le nom du parc où se dresse la Tour Eiffel ?",
+      "options": [
+        "Champ-de-Mars",
+        "Jardin des Tuileries",
+        "Bois de Boulogne",
+        "Parc des Buttes-Chaumont"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-043",
+      "text": "En 2011, la télévision analogique en Île-de-France a été :",
+      "options": [
+        "Définitivement arrêtée (réseau 1 à 6)",
+        "Renforcée",
+        "Laissée en l'état",
+        "Remplacée uniquement à Paris"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-044",
+      "text": "La Tour Eiffel « Version 2.0 » ou réaménagement sensationnel concernait :",
+      "options": [
+        "Le premier étage (Le Moniteur, 2010-2011)",
+        "Le sommet uniquement",
+        "Les fondations uniquement",
+        "L'éclairage uniquement"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-045",
+      "text": "En 2018, des travaux ont été compliqués par la présence de :",
+      "options": [
+        "Plomb (réaménagement du premier étage)",
+        "Amiante",
+        "Radon",
+        "Aucun matériau particulier"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-046",
+      "text": "La Tour Eiffel a 120 ans en 2009 ; un article Batiactu évoque :",
+      "options": [
+        "La tour « se teint en brune » (repeint)",
+        "Sa démolition",
+        "Son déplacement",
+        "Sa vente"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-047",
+      "text": "Les collections « Paris Musées » incluent :",
+      "options": [
+        "La Tour Eiffel (fiche sur parismuseescollections.paris.fr)",
+        "Uniquement des tableaux",
+        "Uniquement des sculptures",
+        "Pas la tour"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-048",
+      "text": "Gustave Eiffel est décédé :",
+      "options": [
+        "Il y a environ cent ans (évocation en 2023 : « disparu il y a cent ans »)",
+        "En 1889",
+        "En 1923",
+        "En 1900"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-049",
+      "text": "En 2022, des articles (Le Figaro) ont évoqué :",
+      "options": [
+        "L'inquiétude sur l'état de la tour Eiffel",
+        "Sa démolition programmée",
+        "Sa vente à un fonds étranger",
+        "Son démontage pour restauration"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": "eiffel-050",
+      "text": "La Tour Eiffel est un monument souvent associé à :",
+      "options": [
+        "Paris, au patrimoine mondial et à la culture française",
+        "Uniquement au sport",
+        "Uniquement à la télévision",
+        "À la seule Exposition de 1900"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

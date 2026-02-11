@@ -1,0 +1,555 @@
+{
+  "format": "qcm-questions-v1",
+  "questions": [
+    {
+      "id": "ssiap-1",
+      "text": "Quel établissement est classé en type L ?",
+      "correctIndex": 2,
+      "options": [
+        "Salle d'expositions",
+        "Salle de cinéma",
+        "Salle de conférences",
+        "Établissement de culte"
+      ]
+    },
+    {
+      "id": "ssiap-2",
+      "text": "Qu'est-ce que l'alarme générale ?",
+      "correctIndex": 0,
+      "options": [
+        "Un signal qui prévient les occupants d'avoir à évacuer les lieux",
+        "Un signal qui prévient le poste central de sécurité",
+        "Un signal qui prévient les sapeurs-pompiers",
+        "Un signal qui déclenche les extincteurs automatiques"
+      ]
+    },
+    {
+      "id": "ssiap-3",
+      "text": "À partir de quelle hauteur un immeuble à usage de bureaux est classé IGH ?",
+      "correctIndex": 1,
+      "options": [
+        "Plus de 28 mètres",
+        "Plus de 50 mètres",
+        "Plus de 18 mètres",
+        "Plus de 100 mètres"
+      ]
+    },
+    {
+      "id": "ssiap-4",
+      "text": "Qu'est-ce que le comburant dans un feu ?",
+      "correctIndex": 2,
+      "options": [
+        "Un combustible liquide",
+        "Une source d'énergie calorifique",
+        "L'oxygène de l'air capable d'entretenir une combustion",
+        "Un hydrocarbure"
+      ]
+    },
+    {
+      "id": "ssiap-5",
+      "text": "Où sont implantées les colonnes sèches en IGH ?",
+      "correctIndex": 3,
+      "options": [
+        "Dans les bureaux",
+        "Dans les circulations",
+        "Dans les locaux techniques",
+        "Dans les escaliers"
+      ]
+    },
+    {
+      "id": "ssiap-6",
+      "text": "Quelle est la fréquence réglementaire de vérification des extincteurs ?",
+      "correctIndex": 0,
+      "options": [
+        "Annuelle",
+        "Semestrielle",
+        "Trimestrielle",
+        "Bi-annuelle"
+      ]
+    },
+    {
+      "id": "ssiap-7",
+      "text": "Les ERP doivent permettre l'évacuation du public, l'intervention des secours et :",
+      "correctIndex": 1,
+      "options": [
+        "L'extinction automatique",
+        "La limitation de la propagation de l'incendie",
+        "L'hébergement des personnes évacuées",
+        "La protection des biens matériels"
+      ]
+    },
+    {
+      "id": "ssiap-8",
+      "text": "Quel est le rôle principal d'un agent SSIAP 1 ?",
+      "correctIndex": 2,
+      "options": [
+        "Éteindre tous les incendies",
+        "Commander les sapeurs-pompiers",
+        "Assurer la prévention et la sécurité incendie",
+        "Gérer les finances du service de sécurité"
+      ]
+    },
+    {
+      "id": "ssiap-9",
+      "text": "Que signifie le sigle SSI ?",
+      "correctIndex": 3,
+      "options": [
+        "Service de Sécurité Interne",
+        "Système de Surveillance Incendie",
+        "Service de Surveillance et d'Intervention",
+        "Système de Sécurité Incendie"
+      ]
+    },
+    {
+      "id": "ssiap-10",
+      "text": "Quelle est la classe de feu pour les liquides inflammables ?",
+      "correctIndex": 1,
+      "options": [
+        "Classe A",
+        "Classe B",
+        "Classe C",
+        "Classe D"
+      ]
+    },
+    {
+      "id": "ssiap-11",
+      "text": "Quelle est la classe de feu pour les feux de gaz ?",
+      "correctIndex": 2,
+      "options": [
+        "Classe A",
+        "Classe B",
+        "Classe C",
+        "Classe D"
+      ]
+    },
+    {
+      "id": "ssiap-12",
+      "text": "Quelle est la durée de validité du diplôme SSIAP 1 ?",
+      "correctIndex": 0,
+      "options": [
+        "3 ans",
+        "5 ans",
+        "1 an",
+        "10 ans"
+      ]
+    },
+    {
+      "id": "ssiap-13",
+      "text": "Que signifie ERP ?",
+      "correctIndex": 3,
+      "options": [
+        "Établissement Recevant des Personnels",
+        "Espace Réservé au Public",
+        "Établissement à Risque Particulier",
+        "Établissement Recevant du Public"
+      ]
+    },
+    {
+      "id": "ssiap-14",
+      "text": "Combien existe-t-il de catégories d'ERP ?",
+      "correctIndex": 1,
+      "options": [
+        "3 catégories",
+        "5 catégories",
+        "4 catégories",
+        "6 catégories"
+      ]
+    },
+    {
+      "id": "ssiap-15",
+      "text": "À partir de quel effectif un ERP est-il classé en 1ère catégorie ?",
+      "correctIndex": 2,
+      "options": [
+        "À partir de 700 personnes",
+        "À partir de 2000 personnes",
+        "À partir de 1501 personnes",
+        "À partir de 3000 personnes"
+      ]
+    },
+    {
+      "id": "ssiap-16",
+      "text": "Quel type d'ERP représente un magasin de vente ?",
+      "correctIndex": 0,
+      "options": [
+        "Type M",
+        "Type N",
+        "Type O",
+        "Type P"
+      ]
+    },
+    {
+      "id": "ssiap-17",
+      "text": "Le triangle du feu comprend le combustible, le comburant et :",
+      "correctIndex": 3,
+      "options": [
+        "L'eau",
+        "Le CO2",
+        "La fumée",
+        "L'énergie d'activation"
+      ]
+    },
+    {
+      "id": "ssiap-18",
+      "text": "Quel agent extincteur ne doit pas être utilisé sur un feu d'origine électrique ?",
+      "correctIndex": 1,
+      "options": [
+        "Le CO2",
+        "L'eau en jet plein",
+        "La poudre ABC",
+        "L'extincteur à mousse"
+      ]
+    },
+    {
+      "id": "ssiap-19",
+      "text": "Que signifie l'acronyme RIA ?",
+      "correctIndex": 2,
+      "options": [
+        "Réseau Interne d'Alarme",
+        "Réserve d'Intervention Automatique",
+        "Robinet d'Incendie Armé",
+        "Réseau d'Irrigation Anti-incendie"
+      ]
+    },
+    {
+      "id": "ssiap-20",
+      "text": "À quelle distance maximum doit se trouver un RIA ?",
+      "correctIndex": 0,
+      "options": [
+        "30 mètres",
+        "50 mètres",
+        "20 mètres",
+        "40 mètres"
+      ]
+    },
+    {
+      "id": "ssiap-21",
+      "text": "Quel est le rôle du désenfumage ?",
+      "correctIndex": 3,
+      "options": [
+        "Éteindre le feu",
+        "Refroidir les locaux",
+        "Déclencher l'alarme",
+        "Évacuer les fumées et faciliter l'intervention"
+      ]
+    },
+    {
+      "id": "ssiap-22",
+      "text": "Quelle est la largeur minimale d'un dégagement en ERP ?",
+      "correctIndex": 1,
+      "options": [
+        "0,60 mètre",
+        "0,90 mètre",
+        "1,20 mètre",
+        "1,50 mètre"
+      ]
+    },
+    {
+      "id": "ssiap-23",
+      "text": "Dans quel sens doivent s'ouvrir les portes des issues de secours ?",
+      "correctIndex": 2,
+      "options": [
+        "Vers l'intérieur",
+        "Dans les deux sens",
+        "Dans le sens de l'évacuation",
+        "Selon le choix du constructeur"
+      ]
+    },
+    {
+      "id": "ssiap-24",
+      "text": "Qu'est-ce qu'un BAES ?",
+      "correctIndex": 0,
+      "options": [
+        "Bloc Autonome d'Éclairage de Sécurité",
+        "Boîtier d'Alarme d'Évacuation Sonore",
+        "Bureau d'Accès aux Équipements de Sécurité",
+        "Bloc d'Alimentation Électrique de Secours"
+      ]
+    },
+    {
+      "id": "ssiap-25",
+      "text": "Quelle est la durée minimale d'autonomie d'un BAES ?",
+      "correctIndex": 3,
+      "options": [
+        "30 minutes",
+        "2 heures",
+        "15 minutes",
+        "1 heure"
+      ]
+    },
+    {
+      "id": "ssiap-26",
+      "text": "Que signifie IGH ?",
+      "correctIndex": 1,
+      "options": [
+        "Installation de Grande Hauteur",
+        "Immeuble de Grande Hauteur",
+        "Infrastructure Généralisée d'Habitation",
+        "Installation Générale d'Hébergement"
+      ]
+    },
+    {
+      "id": "ssiap-27",
+      "text": "Quelle est la couleur réglementaire des panneaux de sécurité incendie ?",
+      "correctIndex": 2,
+      "options": [
+        "Jaune et noir",
+        "Bleu et blanc",
+        "Vert et blanc",
+        "Orange et noir"
+      ]
+    },
+    {
+      "id": "ssiap-28",
+      "text": "Que doit faire un agent SSIAP en cas d'alarme incendie ?",
+      "correctIndex": 0,
+      "options": [
+        "Localiser le sinistre et donner l'alerte",
+        "Évacuer immédiatement",
+        "Attendre les sapeurs-pompiers",
+        "Éteindre tous les équipements électriques"
+      ]
+    },
+    {
+      "id": "ssiap-29",
+      "text": "Qu'est-ce que la main courante ?",
+      "correctIndex": 3,
+      "options": [
+        "Un équipement de sécurité dans les escaliers",
+        "Un outil d'extinction",
+        "Un dispositif d'alarme",
+        "Un registre de consignation des événements"
+      ]
+    },
+    {
+      "id": "ssiap-30",
+      "text": "Combien de niveaux SSIAP existe-t-il ?",
+      "correctIndex": 1,
+      "options": [
+        "2 niveaux",
+        "3 niveaux",
+        "4 niveaux",
+        "5 niveaux"
+      ]
+    },
+    {
+      "id": "ssiap-31",
+      "text": "Quel est le rôle du SSIAP 2 ?",
+      "correctIndex": 2,
+      "options": [
+        "Agent de sécurité",
+        "Directeur de la sécurité",
+        "Chef d'équipe de sécurité",
+        "Formateur SSIAP"
+      ]
+    },
+    {
+      "id": "ssiap-32",
+      "text": "Quel document contient les consignes de sécurité en ERP ?",
+      "correctIndex": 0,
+      "options": [
+        "Le registre de sécurité",
+        "Le cahier des charges",
+        "Le règlement intérieur",
+        "Le plan comptable"
+      ]
+    },
+    {
+      "id": "ssiap-33",
+      "text": "À quelle périodicité doit-on effectuer un exercice d'évacuation en ERP ?",
+      "correctIndex": 3,
+      "options": [
+        "Mensuelle",
+        "Trimestrielle",
+        "Hebdomadaire",
+        "Semestrielle"
+      ]
+    },
+    {
+      "id": "ssiap-34",
+      "text": "Quel est le mode de propagation du feu par déplacement de particules chaudes ?",
+      "correctIndex": 1,
+      "options": [
+        "Conduction",
+        "Convection",
+        "Rayonnement",
+        "Projection"
+      ]
+    },
+    {
+      "id": "ssiap-35",
+      "text": "Quelle est la température d'auto-inflammation du papier ?",
+      "correctIndex": 2,
+      "options": [
+        "100°C",
+        "300°C",
+        "Environ 450°C",
+        "600°C"
+      ]
+    },
+    {
+      "id": "ssiap-36",
+      "text": "Qu'est-ce qu'un SSI de catégorie A ?",
+      "correctIndex": 0,
+      "options": [
+        "Le plus complet avec gestion centralisée",
+        "Le plus simple sans détection automatique",
+        "Un système sans alarme",
+        "Un système uniquement pour les IGH"
+      ]
+    },
+    {
+      "id": "ssiap-37",
+      "text": "Quel équipement permet de signaler un départ de feu ?",
+      "correctIndex": 3,
+      "options": [
+        "Un extincteur",
+        "Un RIA",
+        "Un BAES",
+        "Un déclencheur manuel"
+      ]
+    },
+    {
+      "id": "ssiap-38",
+      "text": "Quelle est la classe de feu pour les métaux ?",
+      "correctIndex": 1,
+      "options": [
+        "Classe C",
+        "Classe D",
+        "Classe E",
+        "Classe F"
+      ]
+    },
+    {
+      "id": "ssiap-39",
+      "text": "Que signifie le sigle DM ?",
+      "correctIndex": 2,
+      "options": [
+        "Dispositif Mobile",
+        "Détecteur Manuel",
+        "Déclencheur Manuel",
+        "Diffuseur de Message"
+      ]
+    },
+    {
+      "id": "ssiap-40",
+      "text": "Quelle est la pression de service d'un RIA ?",
+      "correctIndex": 0,
+      "options": [
+        "Entre 2,5 et 4,5 bars",
+        "Entre 1 et 2 bars",
+        "Entre 5 et 7 bars",
+        "Entre 8 et 10 bars"
+      ]
+    },
+    {
+      "id": "ssiap-41",
+      "text": "Quelle distance maximum entre deux issues de secours ?",
+      "correctIndex": 3,
+      "options": [
+        "20 mètres",
+        "30 mètres",
+        "40 mètres",
+        "50 mètres"
+      ]
+    },
+    {
+      "id": "ssiap-42",
+      "text": "Qu'est-ce qu'un local à risque particulier ?",
+      "correctIndex": 1,
+      "options": [
+        "Un local recevant du public",
+        "Un local présentant des risques d'incendie élevés",
+        "Un local de grande hauteur",
+        "Un local sans fenêtre"
+      ]
+    },
+    {
+      "id": "ssiap-43",
+      "text": "Quelle est la résistance au feu minimale d'une porte coupe-feu en ERP ?",
+      "correctIndex": 2,
+      "options": [
+        "15 minutes",
+        "30 minutes",
+        "Variable selon le type d'ERP",
+        "2 heures obligatoirement"
+      ]
+    },
+    {
+      "id": "ssiap-44",
+      "text": "Quel type d'ERP représente un hôtel ?",
+      "correctIndex": 0,
+      "options": [
+        "Type O",
+        "Type M",
+        "Type N",
+        "Type R"
+      ]
+    },
+    {
+      "id": "ssiap-45",
+      "text": "Que doit faire un agent SSIAP avant l'arrivée des sapeurs-pompiers ?",
+      "correctIndex": 3,
+      "options": [
+        "Quitter les lieux",
+        "Éteindre l'incendie seul",
+        "Fermer toutes les portes",
+        "Guider et renseigner les secours"
+      ]
+    },
+    {
+      "id": "ssiap-46",
+      "text": "Qu'est-ce qu'un compartimentage ?",
+      "correctIndex": 1,
+      "options": [
+        "Un système d'alarme",
+        "Une séparation coupe-feu limitant la propagation",
+        "Un type d'extincteur",
+        "Un équipement de désenfumage"
+      ]
+    },
+    {
+      "id": "ssiap-47",
+      "text": "Quelle est la mission première d'un service de sécurité incendie ?",
+      "correctIndex": 2,
+      "options": [
+        "Surveiller les biens",
+        "Gérer le personnel",
+        "Assurer la sécurité des personnes",
+        "Contrôler les accès"
+      ]
+    },
+    {
+      "id": "ssiap-48",
+      "text": "Quel est le délai d'intervention des sapeurs-pompiers en zone urbaine ?",
+      "correctIndex": 0,
+      "options": [
+        "10 minutes environ",
+        "5 minutes",
+        "20 minutes",
+        "30 minutes"
+      ]
+    },
+    {
+      "id": "ssiap-49",
+      "text": "Qu'est-ce qu'un système de mise en sécurité incendie (SMSI) ?",
+      "correctIndex": 3,
+      "options": [
+        "Un extincteur automatique",
+        "Un plan d'évacuation",
+        "Un système d'alarme manuel",
+        "Un ensemble de dispositifs commandés par le SSI"
+      ]
+    },
+    {
+      "id": "ssiap-50",
+      "text": "Quelle formation est obligatoire pour être agent SSIAP 1 ?",
+      "correctIndex": 1,
+      "options": [
+        "CAP sécurité",
+        "Formation initiale SSIAP 1 avec PSC1 ou SST",
+        "Baccalauréat",
+        "Uniquement PSC1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "format": "qcm-questions-v2",
+  "questions": [
+    {
+      "id": "igh4-1",
+      "text": "4. À partir de quelle hauteur un immeuble d'habitation est classé IGH ?",
+      "correctIndex": 1,
+      "options": [
+        "28 mètres",
+        "50 mètres",
+        "60 mètres",
+        "40 mètres"
+      ]
+    },
+    {
+      "id": "igh4-2",
+      "text": "4. À partir de quelle hauteur un immeuble autre qu'habitation est classé IGH ?",
+      "correctIndex": 0,
+      "options": [
+        "28 mètres",
+        "35 mètres",
+        "50 mètres",
+        "20 mètres"
+      ]
+    },
+    {
+      "id": "igh4-3",
+      "text": "4. La hauteur IGH est mesurée par rapport :",
+      "correctIndex": 2,
+      "options": [
+        "Au niveau moyen de la rue",
+        "Au plancher haut du dernier niveau",
+        "Au sol extérieur le plus haut accessible aux secours",
+        "Au niveau de l'entrée principale"
+      ]
+    },
+    {
+      "id": "igh4-4",
+      "text": "4. Ne sont pas soumis aux règles IGH les immeubles dont la destination implique :",
+      "correctIndex": 3,
+      "options": [
+        "Moins d'une personne par 10 m²",
+        "Moins d'une personne par 20 m²",
+        "Moins d'une personne par 50 m²",
+        "Moins d'une personne par 100 m²"
+      ]
+    },
+    {
+      "id": "igh4-5",
+      "text": "4. La classe GHA correspond aux immeubles à usage :",
+      "correctIndex": 0,
+      "options": [
+        "Habitation",
+        "Hôtel",
+        "Bureaux",
+        "Sanitaire"
+      ]
+    },
+    {
+      "id": "igh4-6",
+      "text": "4. La classe GHO correspond aux immeubles à usage :",
+      "correctIndex": 1,
+      "options": [
+        "Enseignement",
+        "Hôtel",
+        "Archives",
+        "Mixte"
+      ]
+    },
+    {
+      "id": "igh4-7",
+      "text": "4. La classe GHR correspond aux immeubles à usage :",
+      "correctIndex": 3,
+      "options": [
+        "Sanitaire",
+        "Bureaux",
+        "Archives",
+        "Enseignement"
+      ]
+    },
+    {
+      "id": "igh4-8",
+      "text": "4. La classe GHS correspond aux immeubles à usage :",
+      "correctIndex": 2,
+      "options": [
+        "Hôtel",
+        "Habitation",
+        "Dépôt d'archives",
+        "Mixte"
+      ]
+    },
+    {
+      "id": "igh4-9",
+      "text": "4. La classe GHU correspond aux immeubles à usage :",
+      "correctIndex": 1,
+      "options": [
+        "Bureaux",
+        "Sanitaire",
+        "Mixte",
+        "Habitation"
+      ]
+    },
+    {
+      "id": "igh4-10",
+      "text": "4. La classe GHZ regroupe les immeubles :",
+      "correctIndex": 0,
+      "options": [
+        "À usage mixte",
+        "Uniquement d'habitation",
+        "Uniquement de bureaux",
+        "Uniquement d'archives"
+      ]
+    },
+    {
+      "id": "igh4-11",
+      "text": "4. Les bureaux entre 28 et 50 m relèvent de la classe :",
+      "correctIndex": 2,
+      "options": [
+        "GHW2",
+        "GHO",
+        "GHW1",
+        "GHZ"
+      ]
+    },
+    {
+      "id": "igh4-12",
+      "text": "4. Les bureaux au-delà de 50 m relèvent de la classe :",
+      "correctIndex": 1,
+      "options": [
+        "GHW1",
+        "GHW2",
+        "GHR",
+        "GHU"
+      ]
+    },
+    {
+      "id": "igh4-13",
+      "text": "4. Le premier principe de base impose que l'immeuble soit :",
+      "correctIndex": 2,
+      "options": [
+        "Entièrement sprinklerisé",
+        "Doté d'un poste de sécurité par niveau",
+        "Isolé par un volume de protection",
+        "Construit en structure métallique"
+      ]
+    },
+    {
+      "id": "igh4-14",
+      "text": "4. Le second principe de base impose de :",
+      "correctIndex": 0,
+      "options": [
+        "Compartimenter l'immeuble avec parois 2 h",
+        "Limiter l'accès aux sous-sols",
+        "Créer un poste de sécurité unique",
+        "Interdire toute circulation verticale"
+      ]
+    },
+    {
+      "id": "igh4-15",
+      "text": "4. La longueur maximale d'un compartiment IGH est :",
+      "correctIndex": 3,
+      "options": [
+        "60 m",
+        "50 m",
+        "100 m",
+        "75 m"
+      ]
+    },
+    {
+      "id": "igh4-16",
+      "text": "4. La surface maximale d'un compartiment IGH est :",
+      "correctIndex": 1,
+      "options": [
+        "2 000 m²",
+        "2 500 m²",
+        "3 000 m²",
+        "1 500 m²"
+      ]
+    },
+    {
+      "id": "igh4-17",
+      "text": "4. Un compartiment peut comprendre deux niveaux si :",
+      "correctIndex": 0,
+      "options": [
+        "La surface totale n'excède pas 2 500 m²",
+        "Chaque niveau fait moins de 1 000 m²",
+        "La hauteur est inférieure à 28 m",
+        "L'immeuble est GHZ"
+      ]
+    },
+    {
+      "id": "igh4-18",
+      "text": "4. Un compartiment peut comprendre trois niveaux si :",
+      "correctIndex": 2,
+      "options": [
+        "La surface totale est de 3 000 m²",
+        "Chaque niveau fait moins de 1 000 m²",
+        "La surface est 2 500 m² et un niveau est accessible aux secours",
+        "L'immeuble est GHA"
+      ]
+    },
+    {
+      "id": "igh4-19",
+      "text": "4. Les parois de compartiment doivent être coupe-feu :",
+      "correctIndex": 1,
+      "options": [
+        "1 heure",
+        "2 heures",
+        "3 heures",
+        "4 heures"
+      ]
+    },
+    {
+      "id": "igh4-20",
+      "text": "4. Les dispositifs d'accès aux escaliers/ascenseurs doivent être :",
+      "correctIndex": 0,
+      "options": [
+        "Étanches aux fumées en position de fermeture",
+        "Ouverts en permanence",
+        "Ventilés naturellement",
+        "Coupe-feu 30 minutes"
+      ]
+    },
+    {
+      "id": "igh4-21",
+      "text": "4. L'évacuation doit être assurée par au moins :",
+      "correctIndex": 2,
+      "options": [
+        "Un escalier par compartiment",
+        "Trois escaliers par niveau",
+        "Deux escaliers par compartiment",
+        "Un ascenseur et un escalier"
+      ]
+    },
+    {
+      "id": "igh4-22",
+      "text": "4. La dérogation aux deux escaliers peut concerner :",
+      "correctIndex": 1,
+      "options": [
+        "GHR",
+        "GHW1",
+        "GHA",
+        "GHZ"
+      ]
+    },
+    {
+      "id": "igh4-23",
+      "text": "4. En compartiment sinistré, l'accès des ascenseurs est :",
+      "correctIndex": 3,
+      "options": [
+        "Autorisé sous contrôle",
+        "Réservé au public",
+        "Obligatoire",
+        "Interdit"
+      ]
+    },
+    {
+      "id": "igh4-24",
+      "text": "4. En cas de sinistre, les ascenseurs doivent continuer pour :",
+      "correctIndex": 0,
+      "options": [
+        "Les compartiments non atteints",
+        "Les compartiments atteints",
+        "Tous les niveaux sans exception",
+        "Les sous-sols uniquement"
+      ]
+    },
+    {
+      "id": "igh4-25",
+      "text": "4. L'immeuble doit empêcher le passage des fumées :",
+      "correctIndex": 2,
+      "options": [
+        "Vers l'extérieur uniquement",
+        "Entre les pièces d'un logement",
+        "Vers les autres parties de l'immeuble",
+        "Uniquement vers les sous-sols"
+      ]
+    },
+    {
+      "id": "igh4-26",
+      "text": "4. Un IGH doit disposer :",
+      "correctIndex": 3,
+      "options": [
+        "D'un poste de sécurité par niveau",
+        "D'une seule source d'électricité",
+        "D'un réseau électrique par compartiment",
+        "D'une ou plusieurs sources autonomes d'électricité"
+      ]
+    },
+    {
+      "id": "igh4-27",
+      "text": "4. Un IGH doit posséder :",
+      "correctIndex": 1,
+      "options": [
+        "Une alarme locale seulement",
+        "Un système d'alarme efficace",
+        "Une alarme uniquement sonore",
+        "Une alarme réservée aux secours"
+      ]
+    },
+    {
+      "id": "igh4-28",
+      "text": "4. Les matériaux susceptibles de propager rapidement le feu sont :",
+      "correctIndex": 0,
+      "options": [
+        "Interdits",
+        "Tolérés en toiture",
+        "Tolérés en sous-sol",
+        "Tolérés dans les circulations"
+      ]
+    },
+    {
+      "id": "igh4-29",
+      "text": "4. Entreposer des matières inflammables du premier groupe est :",
+      "correctIndex": 2,
+      "options": [
+        "Toujours autorisé",
+        "Autorisé en sous-sol",
+        "Interdit sauf exceptions prévues",
+        "Autorisé avec sprinkler"
+      ]
+    },
+    {
+      "id": "igh4-30",
+      "text": "4. La construction d'un IGH est permise si le site est à :",
+      "correctIndex": 1,
+      "options": [
+        "5 km d'un centre de secours",
+        "3 km au plus d'un centre de secours",
+        "1 km d'un centre de secours",
+        "10 km d'un centre de secours"
+      ]
+    },
+    {
+      "id": "igh4-31",
+      "text": "4. Au-delà de 3 km, une autorisation peut être délivrée par :",
+      "correctIndex": 3,
+      "options": [
+        "Le maire",
+        "Le propriétaire",
+        "Le service de sécurité",
+        "Le préfet après avis"
+      ]
+    },
+    {
+      "id": "igh4-32",
+      "text": "4. Un IGH peut contenir des établissements classés dangereux :",
+      "correctIndex": 0,
+      "options": [
+        "Seulement si le règlement le prévoit par exception",
+        "Libre­ment sans condition",
+        "Uniquement en toiture",
+        "Uniquement en sous-sol"
+      ]
+    },
+    {
+      "id": "igh4-33",
+      "text": "4. La densité maximale d'occupation normale est :",
+      "correctIndex": 1,
+      "options": [
+        "1 personne / 5 m²",
+        "1 personne / 10 m²",
+        "1 personne / 15 m²",
+        "1 personne / 20 m²"
+      ]
+    },
+    {
+      "id": "igh4-34",
+      "text": "4. Les travaux de création ou modification d'IGH nécessitent :",
+      "correctIndex": 2,
+      "options": [
+        "Une simple information",
+        "Un accord du propriétaire",
+        "Une autorisation de l'autorité de police de la sécurité",
+        "Aucun formalisme"
+      ]
+    },
+    {
+      "id": "igh4-35",
+      "text": "4. Quand un permis de construire est accordé avec accord sécurité :",
+      "correctIndex": 1,
+      "options": [
+        "Il annule les obligations IGH",
+        "Il tient lieu d'autorisation IGH",
+        "Il remplace le règlement de sécurité",
+        "Il supprime les contrôles"
+      ]
+    },
+    {
+      "id": "igh4-36",
+      "text": "4. Le règlement de sécurité IGH est fixé par :",
+      "correctIndex": 0,
+      "options": [
+        "Un arrêté conjoint des ministres compétents",
+        "Un arrêté municipal",
+        "Un contrat privé",
+        "Un décret régional"
+      ]
+    },
+    {
+      "id": "igh4-37",
+      "text": "4. Le règlement de sécurité fixe :",
+      "correctIndex": 3,
+      "options": [
+        "Les tarifs d'assurance",
+        "Les horaires d'ouverture",
+        "Les contrats d'entretien",
+        "Les mesures propres à chaque classe d'IGH"
+      ]
+    },
+    {
+      "id": "igh4-38",
+      "text": "4. Les parcs de stationnement sous IGH peuvent être admis sans faire partie de l'immeuble si :",
+      "correctIndex": 2,
+      "options": [
+        "Ils sont ventilés naturellement",
+        "Ils sont ouverts au public",
+        "Ils sont séparés par parois 4 h sans communication",
+        "Ils sont gérés par un tiers"
+      ]
+    },
+    {
+      "id": "igh4-39",
+      "text": "4. Font partie intégrante d'un IGH :",
+      "correctIndex": 0,
+      "options": [
+        "Les éléments porteurs et les sous-sols",
+        "Uniquement les niveaux d'habitation",
+        "Uniquement les parties communes",
+        "Uniquement les étages supérieurs"
+      ]
+    },
+    {
+      "id": "igh4-40",
+      "text": "4. Les corps de bâtiments contigus sont inclus si :",
+      "correctIndex": 1,
+      "options": [
+        "Ils ont la même affectation",
+        "Ils ne sont pas isolés selon le règlement",
+        "Ils sont plus hauts que l'IGH",
+        "Ils ont une passerelle"
+      ]
+    },
+    {
+      "id": "igh4-41",
+      "text": "4. Les constructeurs et installateurs doivent :",
+      "correctIndex": 3,
+      "options": [
+        "Se limiter aux consignes de l'exploitant",
+        "Attendre la fin des travaux",
+        "Transférer la responsabilité",
+        "S'assurer de la conformité aux règles de sécurité"
+      ]
+    },
+    {
+      "id": "igh4-42",
+      "text": "4. Le contrôle de l'administration :",
+      "correctIndex": 2,
+      "options": [
+        "Supprime la responsabilité du propriétaire",
+        "Supprime la responsabilité des installateurs",
+        "Ne dégage pas les responsabilités des intervenants",
+        "Rend les règles facultatives"
+      ]
+    },
+    {
+      "id": "igh4-43",
+      "text": "4. L'autorisation de travaux IGH est délivrée par :",
+      "correctIndex": 0,
+      "options": [
+        "Le préfet",
+        "Le maire",
+        "Le président de région",
+        "Le syndic"
+      ]
+    },
+    {
+      "id": "igh4-44",
+      "text": "4. Le propriétaire doit désigner un mandataire et un suppléant :",
+      "correctIndex": 3,
+      "options": [
+        "Uniquement pour GHZ",
+        "Uniquement pour GHW2",
+        "Uniquement pour GHR",
+        "S'il ne réside pas dans la commune"
+      ]
+    },
+    {
+      "id": "igh4-45",
+      "text": "4. Le mandataire est le correspondant :",
+      "correctIndex": 1,
+      "options": [
+        "Des occupants",
+        "De l'autorité administrative",
+        "Du syndic de copropriété",
+        "Du service de sécurité"
+      ]
+    },
+    {
+      "id": "igh4-46",
+      "text": "4. Les propriétaires doivent faire vérifier les installations par :",
+      "correctIndex": 2,
+      "options": [
+        "Les occupants",
+        "Le gardien",
+        "Une personne ou un organisme agréé",
+        "La mairie"
+      ]
+    },
+    {
+      "id": "igh4-47",
+      "text": "4. Le propriétaire doit organiser :",
+      "correctIndex": 0,
+      "options": [
+        "Un service de sécurité unique pour l'ensemble",
+        "Un service par compartiment",
+        "Un service uniquement nocturne",
+        "Un service optionnel"
+      ]
+    },
+    {
+      "id": "igh4-48",
+      "text": "4. Le règlement fixe les classes où les occupants participent :",
+      "correctIndex": 1,
+      "options": [
+        "Uniquement à la maintenance",
+        "Aux exercices d'évacuation",
+        "Aux contrôles administratifs",
+        "Aux décisions de sécurité"
+      ]
+    },
+    {
+      "id": "igh4-49",
+      "text": "4. Les occupants ne peuvent modifier les lieux loués :",
+      "correctIndex": 2,
+      "options": [
+        "Pendant les horaires d'ouverture",
+        "Sans informer le gardien",
+        "En méconnaissance des règles de sécurité",
+        "Uniquement dans les parties communes"
+      ]
+    },
+    {
+      "id": "igh4-50",
+      "text": "4. Le potentiel calorifique des mobiliers ne doit pas :",
+      "correctIndex": 0,
+      "options": [
+        "Excéder les limites fixées par le règlement",
+        "Être contrôlé par les secours",
+        "Être limité dans les bureaux",
+        "Être mesuré en permanence"
+      ]
+    }
+  ]
+}
