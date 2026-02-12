@@ -31,6 +31,8 @@ import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Divider
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ElevatedButton
 import androidx.compose.material3.ElevatedCard
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -64,6 +66,9 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.tom_roush.pdfbox.android.PDFBoxResourceLoader
+import com.tom_roush.pdfbox.pdmodel.PDDocument
+import com.tom_roush.pdfbox.text.PDFTextStripper
 import org.json.JSONArray
 import org.json.JSONObject
 import kotlin.random.Random
@@ -1265,6 +1270,9 @@ fun AdminPanelScreen(
     var importExportMessage by remember { mutableStateOf<String?>(null) }
     var showPasswordDialog by remember { mutableStateOf(false) }
     var showResetDialog by remember { mutableStateOf(false) }
+    var pdfQuestionCount by remember { mutableStateOf(50) }
+    var isPdfCountMenuExpanded by remember { mutableStateOf(false) }
+    val availablePdfCounts = remember { listOf(10, 20, 50, 100) }
 
     val exportJsonLauncher = rememberLauncherForActivityResult(
         contract = ActivityResultContracts.CreateDocument("application/json")
@@ -1322,6 +1330,22 @@ fun AdminPanelScreen(
                     "Import CSV: ${imported.size} lues, ${result.added} ajoutées, ${result.skippedDuplicates} doublons ignorés."
             } else {
                 importExportMessage = "Import CSV échoué ou fichier vide."
+            }
+        }
+    }
+
+    val importPdfLauncher = rememberLauncherForActivityResult(
+        contract = ActivityResultContracts.OpenDocument()
+    ) { uri: Uri? ->
+        if (uri != null) {
+            val imported = importQuestionsFromPdfUri(context, uri, questionCount = pdfQuestionCount)
+            if (imported != null && imported.isNotEmpty()) {
+                val result = mergeQuestions(questions, imported)
+                onQuestionsUpdated(result.merged)
+                importExportMessage =
+                    "Import PDF ($pdfQuestionCount demandé): ${imported.size} générées, ${result.added} ajoutées, ${result.skippedDuplicates} doublons ignorés."
+            } else {
+                importExportMessage = "Import PDF échoué ou texte insuffisant dans le document."
             }
         }
     }
@@ -1417,6 +1441,46 @@ fun AdminPanelScreen(
                         modifier = Modifier.weight(1f)
                     ) {
                         Text("📤 CSV")
+                    }
+                }
+                Text(
+                    text = "Nombre de questions générées depuis le PDF",
+                    style = MaterialTheme.typography.bodyMedium
+                )
+                Box(modifier = Modifier.fillMaxWidth()) {
+                    OutlinedButton(
+                        onClick = { isPdfCountMenuExpanded = true },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text("Choix actuel: $pdfQuestionCount Q/R")
+                    }
+                    DropdownMenu(
+                        expanded = isPdfCountMenuExpanded,
+                        onDismissRequest = { isPdfCountMenuExpanded = false }
+                    ) {
+                        availablePdfCounts.forEach { count ->
+                            DropdownMenuItem(
+                                text = {
+                                    val selectedMark = if (pdfQuestionCount == count) "✓ " else ""
+                                    Text("${selectedMark}${count} Q/R")
+                                },
+                                onClick = {
+                                    pdfQuestionCount = count
+                                    isPdfCountMenuExpanded = false
+                                }
+                            )
+                        }
+                    }
+                }
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp)
+                ) {
+                    OutlinedButton(
+                        onClick = { importPdfLauncher.launch(arrayOf("application/pdf")) },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text("📥 PDF -> $pdfQuestionCount Q/R")
                     }
                 }
             }
@@ -1534,14 +1598,14 @@ fun AdminPanelScreen(
             },
             text = {
                 Text(
-                    text = "Cette action va supprimer toutes les questions actuelles. Aucune base ne sera recréée automatiquement : l'application restera sans questions tant que vous n'aurez pas importé ou fourni un fichier JSON/CSV valide. Voulez-vous continuer ?"
+                    text = "Cette action va supprimer toutes les questions actuelles. Aucune base ne sera recréée automatiquement : l'application restera sans questions tant que vous n'aurez pas importé ou fourni un fichier JSON/CSV/PDF valide. Voulez-vous continuer ?"
                 )
             },
             confirmButton = {
                 ElevatedButton(
                     onClick = {
                         // Supprime le fichier de base. Aucune régénération automatique si une base
-                        // a déjà existé : l'application restera sans questions tant qu'un JSON/CSV
+                        // a déjà existé : l'application restera sans questions tant qu'un JSON/CSV/PDF
                         // n'est pas importé.
                         context.deleteFile(QUESTIONS_FILE_NAME)
                         onQuestionsUpdated(emptyList())
@@ -2046,6 +2110,102 @@ private fun importQuestionsFromCsvUri(context: Context, uri: Uri): List<Question
     } catch (_: Exception) {
         null
     }
+}
+
+private fun importQuestionsFromPdfUri(
+    context: Context,
+    uri: Uri,
+    questionCount: Int = 50
+): List<Question>? {
+    return try {
+        PDFBoxResourceLoader.init(context.applicationContext)
+        val pdfText = context.contentResolver.openInputStream(uri)?.use { stream ->
+            PDDocument.load(stream).use { document ->
+                PDFTextStripper().getText(document)
+            }
+        }
+        if (pdfText.isNullOrBlank()) return null
+        generateQuestionsFromPdfText(pdfText, questionCount)
+            .takeIf { it.isNotEmpty() }
+    } catch (_: Exception) {
+        null
+    }
+}
+
+private fun generateQuestionsFromPdfText(pdfText: String, questionCount: Int): List<Question> {
+    val facts = extractPdfFacts(pdfText)
+    if (facts.isEmpty()) return emptyList()
+
+    val selectedFacts = buildList {
+        val shuffled = facts.shuffled()
+        repeat(questionCount.coerceAtLeast(1)) { index ->
+            add(shuffled[index % shuffled.size])
+        }
+    }
+    val fallbackDistractors = listOf(
+        "Le document recommande d'ignorer les consignes de sécurité.",
+        "Le document indique que la prévention n'est pas prioritaire.",
+        "Le document précise qu'aucune procédure n'est nécessaire."
+    )
+    val timestamp = System.currentTimeMillis()
+
+    return selectedFacts.mapIndexed { index, fact ->
+        val topic = fact
+            .split(Regex("\\s+"))
+            .take(8)
+            .joinToString(" ")
+            .trim()
+            .ifBlank { "le sujet traité" }
+        val questionText = "Selon le PDF de référence, quelle affirmation est correcte concernant \"$topic\" ?"
+
+        val distractors = facts.filter { it != fact }.shuffled().take(3).toMutableList()
+        fallbackDistractors.forEach { fallback ->
+            if (distractors.size < 3 && fallback != fact && !distractors.contains(fallback)) {
+                distractors.add(fallback)
+            }
+        }
+
+        val options = (distractors + fact).distinct().toMutableList()
+        var i = 1
+        while (options.size < 4) {
+            options.add("Proposition générique non confirmée par le document ($i)")
+            i++
+        }
+        val shuffledOptions = options.take(4).shuffled()
+        val correctIndex = shuffledOptions.indexOf(fact).coerceAtLeast(0)
+
+        Question(
+            id = "pdf-$timestamp-$index",
+            text = questionText,
+            options = shuffledOptions,
+            correctIndex = correctIndex
+        )
+    }
+}
+
+private fun extractPdfFacts(pdfText: String): List<String> {
+    val cleaned = pdfText
+        .replace('\u0000', ' ')
+        .replace(Regex("[\\t\\r]+"), " ")
+        .replace(Regex(" +"), " ")
+        .trim()
+
+    val sentenceCandidates = cleaned
+        .replace('\n', ' ')
+        .split(Regex("(?<=[.!?;:])\\s+"))
+        .map { it.trim().trim('-', '•', '*') }
+
+    val lineCandidates = pdfText.lines()
+        .map { it.trim().trim('-', '•', '*') }
+
+    return (sentenceCandidates + lineCandidates)
+        .map { it.replace(Regex("\\s+"), " ").trim() }
+        .filter { candidate ->
+            candidate.length in 40..220 &&
+                candidate.count { ch -> ch.isLetter() } >= 20 &&
+                !candidate.lowercase().startsWith("page ")
+        }
+        .distinctBy { it.lowercase() }
 }
 
 private fun questionsToCsv(questions: List<Question>): String {
